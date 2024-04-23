@@ -8,7 +8,6 @@ def read_px_file(file_path):
 def create_bmp_from_px(px_data, output_file, wrap_every):
     # Calculate the width and height based on the number of RGB values
     width = len(px_data)
-    height = 1
 
     # Calculate the new width and height based on wrap_every
     new_width = wrap_every
